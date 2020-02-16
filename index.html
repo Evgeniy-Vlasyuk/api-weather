@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="header__title">Погода</h1>
+    <div class="header__wrapper">
+      <div class="left">
+        <p>
+          <label for="">Страна:</label>
+          <select>
+            <option disabled selected>Виберите страну</option>
+            <option value="ES">Испания</option>
+            <option value="US">США</option>
+            <option value="RU">Россия</option>
+          </select>
+        </p>
+        <p>
+          <label for="">Город:</label>
+          <div id="city"></div>
+        </p>
+      </div>
+      <div class="right">
+        <div id="weather"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  background: cyan;
+}
+
+p {
+  margin: 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.left p {
+  margin-bottom: 16px;
+}
+
+.left p label {
+  text-transform: uppercase;
+  margin-right: 5px;
+  font-weight: 700;
+}
+
+#city {
+  width: 300px;
+  height: 260px;
+  overflow: auto;
+}
+
+#city p {
+  cursor: pointer;
+  padding: 5px;
+}
+
+#city p:hover {
+  background: #fff;
+}
+
+#weather {
+  text-align: center;
+  padding-left: 150px;
+  min-width: 400px;
+}
+
+#weather p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
